@@ -89,7 +89,7 @@ if (jueguemos) {
 
             } else {
                 if (maquina == 1) {
-                    alert("ganaste!!! :( .... piedra - tijeras");
+                    alert("perdiste!!! :( .... piedra - tijeras");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
@@ -98,7 +98,7 @@ if (jueguemos) {
                         cont = 1;
                     };
                 } else if (maquina == 2) {
-                    alert("perdiste!! :(  papel - tijeras");
+                    alert("ganaste!! :)  papel - tijeras");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
