@@ -22,12 +22,11 @@ let cont = 0;
 
 if (jueguemos) {
     while (cont == 0) {
-        let juego = parseInt(prompt("JUGUEMOS!! piedra digita 1, papel digita 2, tijeras digita 3"));
+        let juego = parseInt(prompt("JUGUEMOS!! piedra digita 1, papel digita 2, tijeras digita 3 no da el cancelar jajajja se jodio pa que dijo q si queria jugar"));
         let maquina = parseInt(Math.random() * 3 + 1);
         if (isNaN(juego) || juego > 3) {
-            juego = prompt("Ingreso un dato incorrecto... piedra digita 1, papel digita 2, tijeras digita 3");
-        } else {
-            
+            juego = prompt("Ingreso un dato incorrecto... piedra digita 1, papel digita 2, tijeras digita 3 no da el cancelar jajajja se jodio pa que dijo q si queria jugar");
+        } else {            
             if (juego == 1) {
                 if (maquina == 1) {
                     alert("empatee piedra - piedra");
@@ -108,7 +107,7 @@ if (jueguemos) {
                         cont = 1;
                     };
                 } else {
-                    alert("empate .... papel - papel");
+                    alert("empate .... papel - tijeras");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
