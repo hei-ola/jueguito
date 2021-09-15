@@ -38,7 +38,7 @@ if (jueguemos) {
                         cont = 1;
                     };
                 } else if (maquina == 2) {
-                    alert("gane!!.... papel - piedra");
+                    alert("ganaste!!.... papel - piedra");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
@@ -47,7 +47,7 @@ if (jueguemos) {
                         cont = 1;
                     };
                 } else {
-                    alert("perdi :( !!.... tijeras - piedra");
+                    alert("perdiste :( !!.... tijeras - piedra");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
@@ -59,7 +59,7 @@ if (jueguemos) {
 
             } else if (juego == 2) {
                 if (maquina == 1) {
-                    alert("perdi :( .... piedra - papel");
+                    alert("perdiste :( .... piedra - papel");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
@@ -77,7 +77,7 @@ if (jueguemos) {
                         cont = 1;
                     };
                 } else {
-                    alert("gane!!.... tijeras - papel");
+                    alert("ganaste!!.... tijeras - papel");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
@@ -89,7 +89,7 @@ if (jueguemos) {
 
             } else {
                 if (maquina == 1) {
-                    alert("gane!!! :( .... piedra - tijeras");
+                    alert("ganaste!!! :( .... piedra - tijeras");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
@@ -98,7 +98,7 @@ if (jueguemos) {
                         cont = 1;
                     };
                 } else if (maquina == 2) {
-                    alert("perdi!! :(  papel - tijeras");
+                    alert("perdiste!! :(  papel - tijeras");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
@@ -107,7 +107,7 @@ if (jueguemos) {
                         cont = 1;
                     };
                 } else {
-                    alert("empate .... papel - tijeras");
+                    alert("empate .... tijeras - tijeras");
                     let otraVez = confirm("¿Desea seguir jugando?");
                     if (otraVez) {
                         cont = 0;
